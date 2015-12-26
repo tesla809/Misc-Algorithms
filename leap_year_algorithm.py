@@ -39,7 +39,7 @@ def find_leap_years(year, number_of_leap_years):
     return answer
 
 year = 2015
-number_of_leaps = 25
+number_of_leaps = 20
 problem_answer = find_leap_years(year, number_of_leaps)
 print problem_answer
 

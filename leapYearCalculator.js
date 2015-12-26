@@ -23,7 +23,7 @@ function findLeapYears(year, numOfLeapYears){
         }
     }
         
-    // find 20 leap years aftery var year;
+    // find 20 leap years after var year;
     for(var i = year; leapYearArray.length <= numOfLeapYears; i++){
         if (leapYear(i) === 0){
             continue;
